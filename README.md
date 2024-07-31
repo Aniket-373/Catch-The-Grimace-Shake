@@ -32,7 +32,7 @@ A simple game built with Phaser where the player catches falling Grimace Shakes 
 
 3. Run the game:
    ```bash
-   npm start
+   npm start / npx http-server
    ```
 
    This will start a local server and open the game in your default browser.
