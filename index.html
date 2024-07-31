@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch the Grimace Shake</title>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
+    <script defer src="main.js"></script>
+    <style>
+        #ui{
+            position: absolute;
+            top: 10px;
+            margin-left: 20%;
+            padding: 4px;
+            font-size: 10px;
+            cursor: pointer;
+        }
+        #pauseButton{
+            background-color: brown;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        #restartButton{
+            background-color: brown;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        #text{
+            font-size: 20px;
+            fill:#000;
+            margin-bottom: 4px;
+            margin-top: 0;
+            margin-left: -20%;
+            font-family:fantasy;
+            color:brown;
+        }
+    </style>
+</head>
+<body>
+    <div id="ui">
+    <h4 id="text">Catch The Grimace Shake</h4>
+    <button id="pauseButton">Pause</button>
+    <button id="restartButton" >Restart</button>
+    </div>
+</body>
+</html>
